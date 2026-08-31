@@ -1,6 +1,6 @@
 export default function HomePage() {
   const siteName: string = "Student Course Hub";
-  const courseCount: number = 3;
+  const courseCount: number = 4;
   const isOpen: boolean = true;
   const topics: string[] = [
     "HTML",
@@ -17,13 +17,13 @@ export default function HomePage() {
     isOpen: boolean;
   };
 
-    const courses: Course[] = [
-      {
-        id: 1,
-        code: "10301231",
-        title: "Web Technology",
-        credits: 3,
-        isOpen: true,
+  const courses: Course[] = [
+    {
+      id: 1,
+      code: "10301231",
+      title: "Web Technology",
+      credits: 3,
+      isOpen: true,
     },
     {
       id: 2,
@@ -31,8 +31,22 @@ export default function HomePage() {
       title: "Database Systems",
       credits: 3,
       isOpen: false,
-  },
-];
+    },
+    {
+      id: 3,
+      code: "10301233",
+      title: "JavaScript Programming",
+      credits: 3,
+      isOpen: true,
+    },
+    {
+      id: 4,
+      code: "10301234",
+      title: "Next.js Web Development",
+      credits: 3,
+      isOpen: true,
+    },
+  ];
 
 
 
