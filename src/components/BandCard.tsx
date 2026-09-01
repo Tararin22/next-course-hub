@@ -7,9 +7,10 @@ type BandCardProps = {
 };
 
 export default function BandCard({ band }: BandCardProps) { //ประกาศ component ชื่อ BandCard รับ props เข้ามาแล้ว destructure ดึงค่า band ออกมาใช้ตรงๆ ทันที (แทนที่จะต้องเขียน props.band ทุกครั้ง)
-  return (
+  return ( //<div className="flex justify-center"> //จัดให้รูปอยู่กึ่งกลางแนวนอน
     <article className="relative overflow-hidden rounded-xl shadow-lg mb-12 bg-gradient-to-b from-slate-80 via-blue-90 to-blue-900 p-3 max-w-sm mx-auto">
-      <div className="flex justify-center"> //จัดให้รูปอยู่กึ่งกลางแนวนอน
+      
+      <div className="flex justify-center"> 
         <Image
           src={band.imageUrl} //ดึงรูป
           alt={band.name} // คำอธิบาย
