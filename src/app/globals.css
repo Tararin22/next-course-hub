@@ -29,9 +29,10 @@ body {
   background: #f8fafc;
   font-family: Arial, sans-serif;
 }
-
+ 
+{/*เปลี่ยนสีตรงนี้นิดหน่อย */}
 .siteHeader {
-  background: #14532d;
+  background: #fd9fec;
 }
 
 .navbar,
